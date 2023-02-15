@@ -1,9 +1,27 @@
+/*
+Al seleccionar un mes informar.
+si es Enero: "que comiences bien el año!!!."
+si es Marzo: "a clases!!!."
+si es Julio: "se vienen las vacaciones!!!."
+si es Diciembre: "Felices fiesta!!!."
+*/
+
+// Lucas Emmanuel Gimenez
+
+
 function mostrar()
 {
-	//tomo el mes
-	var mesDelAño =txtIdMes.value;
-	alert(mesDelAño);
+	var mes;
+	var mensaje;
+
+	switch(mes) 
+	{
+		case 'Enero':
+			mes = 'Que comiences bien el año!!!'
+			
+
+	}
 
 
 
-}//FIN DE LA FUNCIÓN
+}

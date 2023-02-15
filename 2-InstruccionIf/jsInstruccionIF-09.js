@@ -1,6 +1,16 @@
+/*
+Al presionar el Botón, mostrar un número Random del 1 al 10 inclusive.
+*/
+
+// Lucas Emmanuel Gimenez
+
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");	
+	var numsRandom;
 
-}//FIN DE LA FUNCIÓN
+	numsRandom = Math.random() * 10;
+
+	numsRandom = numsRandom.toFixed(0);
+
+	alert(numsRandom);
+}

@@ -14,9 +14,9 @@ function FahrenheitCentigrados ()
 	temperatura = document.getElementById('txtIdTemperatura').value;
 	temperatura = parseInt(temperatura);
 
-	centigrados = temperatura - 32 / 1,8;
+	centigrados = (temperatura - 32) / 1.8;
 	
-	mensaje = temperatura + ' fahrenheit son ' + centigrados + ' centigrados';
+	mensaje = temperatura + ' grados fahrenheit son ' + centigrados + ' grados centigrados';
 
 	alert(mensaje);
 }
@@ -32,7 +32,6 @@ function CentigradosFahrenheit ()
 
 	fahrenheit = temperatura * 1.8 + 32;
 
-	mensaje = temperatura + ' centigrados son ' + fahrenheit + ' fahrenheit';
+	mensaje = temperatura + ' grados centigrados son ' + fahrenheit + ' grados fahrenheit';
 
 	alert(mensaje);
-}
